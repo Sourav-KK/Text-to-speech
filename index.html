@@ -9,11 +9,20 @@
   </head>
 
   <body>
-    <div id="area">
-      <textarea id="textArea" placeholder="Enter your text"></textarea>
-      <button id="btn">submit</button>
-    </div>
-   
+    <section>
+      <div class="flex">
+        <h1>Text To Speech</h1>
+      </div>
+      <div id="area">
+        <textarea
+          id="textArea"
+          placeholder="Enter your text"
+          draggable="false"
+        ></textarea>
+        <select id="voiceSelect"></select>
+        <button id="btn">submit</button>
+      </div>
+    </section>
     <script src="textToSpeech.js"></script>
   </body>
 </html>
